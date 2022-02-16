@@ -1,21 +1,17 @@
 # react_routers - FullStack Development KEA
 
 Routing library - react-router-dom v6
-
 - responsible for rendering the view
 
 ### Highlights
 
-- <Routes></Routes> instead of Switch
+- Routes instead of Switch
 - element instead of component
 - useParams(), useMatch(), useLocation(), useNavigate()
-- <Route path="/products/" element={<Products products={products} />} /> - passing props
+- ![image](https://user-images.githubusercontent.com/44173409/154358300-4ecbab52-cd9e-4bf2-82ff-bebb07002dbc.png) - passing props
 - query-string: queryString.parse()
-- <Route path='/messages' element={<Navigate to="/posts" />} /> - redirecting
-- <button onClick={() => navigate('/products', {replace:true})}>Save</button> - replace history
-- <Route path='admin' element={<Dashboard />}>
-  <Route path='users' element={<Users />} />
-  <Route path='posts' element={<AdminPosts />} />
-  <Route path='\*' element={<NotFound />} />
-  </Route> - nested routing
-- <Outlet /> - renders the matching child route with its respective component
+- ![image](https://user-images.githubusercontent.com/44173409/154358348-f0ec3fc7-337d-42ee-a6c6-f6511626def5.png) - redirecting
+- ![image](https://user-images.githubusercontent.com/44173409/154358466-25d3e9f1-4491-414a-9701-2acfe05a417e.png) - replace history
+- ![image](https://user-images.githubusercontent.com/44173409/154358540-b80392ca-fdbe-4a94-a1bc-3335f1161007.png) - nested routing
+
+- Outlet - renders the matching child route with its respective component
